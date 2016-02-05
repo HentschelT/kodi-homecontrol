@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.hentschel"
+   name="Hentschel Home Control"
+   version="0.0.1"
+   provider-name="CaptnDelta (Thomas Hentschel)">
+  <requires>
+    <import addon="xbmc.python" version="2.14"/>
+    <import addon="script.module.pyxbmct" version="1.1.2"/>
+    <import addon="plugin.program.isybrowse" version="1.0.1"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Home control addon</summary>
+    <description lang="en">Home control from TV for 5674 Marlin Drive</description>
+    <email>thomas@hentschel.net</email>
+  </extension>
+</addon>

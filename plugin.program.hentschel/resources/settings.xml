@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="31000">
+		<setting id="location" type="select" label="Current location (room)" values="Back Deck|Living Room|Bed Room|Guest Bed Room|Garage|Loft" />    
+	</category>
+    <category label="Hot Tub Control">
+        <setting label="30103" type="text" id="host" default="hottub.home.hentschel.net"/>
+        <setting label="30104" type="text" id="port" default="80"/>
+    </category>
+</settings>
